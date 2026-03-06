@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { CartProvider } from './react_tp/src/CartContext';
-import Navbar from './react_tp/src/Navbar';
-import Home from './react_tp/src/Home';
-import Cart from './react_tp/src/Cart';
+import { CartProvider } from './CartContext';
+import Navbar from './Navbar';
+import Home from './Home';
+import Cart from './Cart';
 
 function App() {
   const [page, setPage] = useState('home');
